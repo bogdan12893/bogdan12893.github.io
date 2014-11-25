@@ -1,12 +1,11 @@
 @font-face {
-  font-family: 'Folktale';
-  font-style: normal;
-  font-weight: 400;
-  src: url(../fonts/robi.woff) format('woff');
+  font-family: 'MyFont';
+  src: url('../fonts/MyFont.woff') format('woff');
 }
 
 h1 {
-	font-family: 'Folkstale';
+	font-weight: bold;
+	font-family: 'MyFont';
 	border: 10px solid #084B8A;
 	color:#28285F;
 	position: absolute;
