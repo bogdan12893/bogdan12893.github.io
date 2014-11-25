@@ -1,7 +1,14 @@
+@font-face {
+  font-family: 'Folktale';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/robi.woff) format('woff');
+}
+
 h1 {
+	font-family: 'Folkstale';
 	border: 10px solid #084B8A;
 	color:#28285F;
-	font-family: Impact, Charcoal, sans-serif;
 	position: absolute;
     top: 50px;
     left: 42%;
