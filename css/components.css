@@ -1,0 +1,36 @@
+h1 {
+	border: 10px solid #084B8A;
+	color:#28285F;
+	font-family: Impact, Charcoal, sans-serif;
+	position: absolute;
+    top: 50px;
+    left: 42%;
+}
+body {
+	background-color:#ffffff;
+	}
+h4 {
+    position: absolute;
+    top: 250px;
+    left: 44%;
+    color: black;
+}
+img {
+	opacity:0.5;
+    position: absolute;
+    top: 180px;
+	color: black;
+	}
+img.img1 {
+	left: 50%;
+    
+}
+img.img2 {
+    left: 60%;   
+}
+img.img3 {
+    left: 40%;
+}
+img:hover{
+	opacity:1.0;
+	}
