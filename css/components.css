@@ -6,11 +6,10 @@
 h1 {
 	font-weight: bold;
 	font-family: 'MyFont';
-	border: 10px solid #084B8A;
 	color:#28285F;
 	position: absolute;
     top: 50px;
-    left: 42%;
+    left: 44%;
 }
 body {
 	background-color:#ffffff;
