@@ -6,14 +6,16 @@
 h1 {
 	font-weight: bold;
 	font-family: 'MyFont';
-	color:#28285F;
+	color:#ffffff;
 	position: absolute;
     top: 50px;
     left: 44%;
+	text-decoration: underline;
 }
 body {
-	background-color:#ffffff;
-	}
+    background-image: url("../img/atlantic.png");
+    background-repeat: no-repeat;
+}
 h4 {
     position: absolute;
     top: 250px;
