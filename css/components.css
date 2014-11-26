@@ -19,7 +19,7 @@ body {
 }
 h4 {
     position: absolute;
-    top: 250px;
+    top: 50%;
 	left:43%;
     color: white;
 	font-size:130%
