@@ -7,10 +7,11 @@ h1 {
 	font-weight: bold;
 	font-family: 'MyFont';
 	color:#ffffff;
+	font-size: 400%;
 	position: absolute;
-    top: 50px;
-    left: 46%;
+	left:40%;
 	text-decoration: underline;
+	text-shadow: 5px 5px 3px black
 }
 body {
     background-image: url("../img/dark.png");
@@ -19,8 +20,9 @@ body {
 h4 {
     position: absolute;
     top: 250px;
-    left: 45%;
-    color: black;
+	left:43%;
+    color: white;
+	font-size:130%
 }
 img {
 	opacity:0.5;
@@ -37,6 +39,12 @@ img.img2 {
 }
 img.img3 {
     left: 40%;
+}
+img.img4 {
+    left: 45%;
+}
+img.img5 {
+    left: 55%;
 }
 img:hover{
 	opacity:1.0;
