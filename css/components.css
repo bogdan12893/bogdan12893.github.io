@@ -9,17 +9,17 @@ h1 {
 	color:#ffffff;
 	position: absolute;
     top: 50px;
-    left: 44%;
+    left: 46%;
 	text-decoration: underline;
 }
 body {
-    background-image: url("../img/atlantic.png");
-    background-repeat: no-repeat;
+    background-image: url("../img/dark.png");
+    background-repeat: repeat;
 }
 h4 {
     position: absolute;
     top: 250px;
-    left: 44%;
+    left: 45%;
     color: black;
 }
 img {
