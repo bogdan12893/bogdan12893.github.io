@@ -17,13 +17,16 @@ body {
     background-image: url("../img/dark.png");
     background-repeat: repeat;
 }
-h4 {
-    position: absolute;
-    top: 50%;
-	left:43%;
-    color: white;
-	font-size:130%
+ul {
+	font-size:150%;
+	Font-family:"Arial";
+	position: absolute;
+    top: 30%;
+	left:20%;
+	color: white;
+	text-shadow: 3px 3px 2px black
 }
+
 img {
 	opacity:0.5;
     position: absolute;
