@@ -3,52 +3,55 @@
   src: url('../fonts/MyFont.woff') format('woff');
 }
 
-h1 {
-	font-weight: bold;
-	font-family: 'MyFont';
-	color:#ffffff;
-	font-size: 400%;
-	position: absolute;
-	left:40%;
-	text-decoration: underline;
-	text-shadow: 5px 5px 3px black
-}
-body {
-    background-image: url("../img/dark.png");
-    background-repeat: repeat;
-}
-ul {
-	font-size:150%;
-	Font-family:"Arial";
-	position: absolute;
-    top: 30%;
-	left:20%;
-	color: white;
-	text-shadow: 3px 3px 2px black
+div.one{
+	width:100%;
+	height:20px;
+	background-color:#0c2538;
+	margin: auto;
+	border-radius:5px;
+	text-align: center;
 }
 
-img {
+div.one p.hi{
+	color:#eeee99;
+	font-family:Calibri Light;
+	font-size: 100%;
+	text-align: center;
+	
+}
+span{
+	color:#ede059;
+}
+
+
+body{
+	background-image: url("../img/p5.png");
+    background-repeat: repeat;
+}
+table{
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:10px;
+}
+img{
 	opacity:0.5;
-    position: absolute;
-    top: 180px;
-	color: black;
-	}
-img.img1 {
-	left: 50%;
-    
 }
-img.img2 {
-    left: 60%;   
-}
-img.img3 {
-    left: 40%;
-}
-img.img4 {
-    left: 45%;
-}
-img.img5 {
-    left: 55%;
-}
+
 img:hover{
 	opacity:1.0;
 	}
+	
+p.loading{
+	text-align: center;
+	margin-top:20%;
+	top:50px;
+	font-family:Calibri Light;
+	font-size:200%;
+}
+
+p.rights{
+	position: absolute;
+	bottom: 1px;
+	margin-left:85%;
+	font-family:Calibri Light;
+}
