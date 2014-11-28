@@ -27,15 +27,15 @@ div.two{
 /* Chrome, Safari, Opera */
 @-webkit-keyframes myfirst {
     0%   {right:80%; top:0px;}
-    15%  {right:80%; top:0px;}
-    25% {right:0px; top:0px;}
+    25%  {right:80%; top:0px;}
+    50% {right:0px; top:0px;}
 }
 
 /* Standard syntax */
 @keyframes myfirst {
     0%   {right:80%; top:0px;}
-    15%  {right:80%; top:0px;}
-    25% {right:0px; top:0px;}
+    25%  {right:80%; top:0px;}
+    50% {right:0px; top:0px;}
 }
 span{
 	color:#ede059;
@@ -51,11 +51,11 @@ table{
 	margin-left:auto;
 	margin-top:10px;
 }
-img{
+table img{
 	opacity:0.5;
 }
 
-img:hover{
+table img:hover{
 	opacity:1.0;
 	}
 
