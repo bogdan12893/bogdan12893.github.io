@@ -1,67 +1,94 @@
-@font-face {
-  font-family: 'MyFont';
-  src: url('../fonts/MyFont.woff') format('woff');
-}
-
-div.one{
-	width:100%;
-	height:20px;
-	background-color:#0c2538;
-	margin: auto;
-	text-align: center;
-}
-
-div.one p.hi{
-	color:#eeee99;
-	font-family:Calibri Light;
-	font-size: 100%;
-	text-align: center;
-	
-}
-div.two{
-    position: relative;
-    -webkit-animation: myfirst 2s; /* Chrome, Safari, Opera */
-    animation: myfirst 2s;
-}
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes myfirst {
-    0%   {right:80%; top:0px;}
-    25%  {right:80%; top:0px;}
-    50% {right:0px; top:0px;}
-}
-
-/* Standard syntax */
-@keyframes myfirst {
-    0%   {right:80%; top:0px;}
-    25%  {right:80%; top:0px;}
-    50% {right:0px; top:0px;}
-}
-span{
-	color:#ede059;
-}
-
-
-body{
-	background-image: url("../img/p5.png");
-    background-repeat: repeat;
-}
-table{
+#top{
+	position:relative;
+	margin-top:-10px;
 	margin-right:auto;
 	margin-left:auto;
+	width:80%;
+	height:240px;
+	opacity:0.7;
+	background-image:url("../img/dark.png");
+	background-repeat:repeat;
+}
+#round{
+	position:relative;
+	margin-top:-11%;
+	margin-left:auto;
+	margin-right:auto;
+	width:150px;
+	height:150px;
+	background-color:white;
+	border:2px solid white;
+	border-radius:100%;
+	
+}
+.links{
+	width:100%;
+	height:60px;
+	background-color:white;
+	opacity:0.2;
+	margin:auto;
+}
+.logo{
+	position:relative;
+	margin-top:9px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.aboutt{
+	position:relative;
 	margin-top:10px;
+	margin-right:auto;
+	margin-left:auto;
+	height:800px;
+	width:50%;
 }
-table img{
-	opacity:0.5;
-}
-
-table img:hover{
-	opacity:1.0;
-	}
-
-p.rights{
-	position: absolute;
-	bottom: 1px;
-	margin-left:85%;
+.about{
+	text-align: left;
 	font-family:Calibri Light;
+	font-size:200%;
+
+
+}
+p{
+	text-align: left;
+	font-family:Calibri Light;
+	font-size:130%;
+}
+span{
+	font-family:Calibri Light;
+	font-size:120%;
+}
+
+#bottom{
+	height:20px;
+	background-image:url("../img/dark.png");
+	background-repeat:repeat;
+	width:80%;
+	margin-top:-10px;
+	margin-right:auto;
+	margin-left:auto;
+	opacity:0.7;
+}
+.rights{
+	text-align:right;
+	font-family:Calibri Light;
+	font-size:90%;
+	color:white;
+}
+
+a{
+	text-decoration:none;
+	color:black;
+}
+
+a:hover{
+	color:white;
+}
+body{
+	background-image: url("../img/vlrr.png");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+
 }
