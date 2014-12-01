@@ -99,14 +99,13 @@
 	margin-right:auto;
 }
 
-.aboutt{
+.center{
 	position:relative;
 	margin-top:200px;
 	margin-right:auto;
 	margin-left:auto;
-	height:600px;
+	height:auto;
 	width:50%;
-	border-radius:10px;
 }
 .about{
 	text-align: left;
