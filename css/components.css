@@ -99,7 +99,7 @@
 	margin-right:auto;
 }
 
-.center{
+#main{
 	position:relative;
 	margin-top:200px;
 	margin-right:auto;
@@ -107,11 +107,26 @@
 	height:auto;
 	width:50%;
 }
-.about{
+
+.aboutme{
 	text-align: left;
 	font-family: Calibri Light;
 	font-size:300%;
 	color:white;
+}
+.txtaboutme{
+	text-align: left;
+	font-family: Calibri Light;
+	font-size:130%;
+	color:white;
+}
+
+.welcome{
+	text-align: center;
+	font-family: Calibri Light;
+	font-size:500%;
+	color:white;
+
 }
 p{
 	text-align: left;
@@ -155,6 +170,4 @@ span{
 }
 body{
 	background-color:#9bc7b8;
-
-
 }
