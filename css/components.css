@@ -1,158 +1,91 @@
-@@ -1,12 +1,11 @@
-@font-face {
-  font-family: 'TALLDECO';
-  src: url('../fonts/TALLDECO.woff') format('woff');
-}
-#Photo{
-    position:absolute;
-    height:250px;
-    bottom:0;
+#navigation{
+	position:absolute;
+	margin-top: -10px;
+	margin-left: auto;
+	margin-right: auto;
+	bottom:0;
     top:0;
     left:0;
     right:0;
-    margin-top:-10px;
-    margin-right:0px;
-    margin-left:0px;
-	background-image: url("../img/mountain.jpg");
-	background-repeat: no-repeat;
-    background-position: center; 
-	text-align:center;
-}
-#name{
-    position:relative;
-    height:150px;
-	width:150px;
-	border-radius:100%;
-	border:5px dashed rgba(0, 0, 0, 0.5);
-    bottom:0;
-    top:0;
-    left:0;
-    right:0;
-    margin-top:10px;
-    margin-right:auto;
-    margin-left:auto;
+	width:50%;
+	height:100px;
+	background-color:rgba(0, 0, 0, 0.9);
+	text-align: right;
+	vertical-align:center;
 }
 
-#name .bogdan{
-	position:relative;
-	font-family: Calibri Light;
-	text-align:center;
-	vertical-align:middle;
-	line-height:100px;
-	list-style-type: none;
-	color:white;
-	font-size:140%;
-	}
-	
-#top{
-    position:absolute;
-    height:50px;
-    bottom:0;
-    top:0;
-    left:0;
-    right:0;
-    margin-top:180px;
-    margin-right:0px;
-    margin-left:0px;
-	background-color:rgba(0, 0, 0, 0.5);
-	text-align:center;
-}
 
-.nav li{
-	 color:white;
+#navigation li{
 	 display:inline;
-	 vertical-align:middle;
-	 padding: 0px 50px 0px 50px
+	 padding: 0px 40px 0px 40px;
 }
-
-.nav li .tab{
-	Font-family:Calibri Light;
+#navigation li .tab{
+	font-family:Calibri Light;
 	font-size:120%;
 	text-decoration:none;
-	color:white;
 	text-align:center;
+	line-height:70px;
+	color: #fff;
+	padding: 30px 10px 40px 10px;
 }
-
-.nav li .tab:hover{
-	text-decoration: underline;
-	
+#navigation li .tab:hover{
+	background-color: #003441;
+	padding: 30px 10px 40px 10px;
 }
-	
-}
-.links{
-	width:100%;
-	height:60px;
-	background-color:white;
-	opacity:0.2;
-	margin:auto;
-}
-.icons{
-	position:relative;
-	margin-top:300px;
-		margin-left:auto;
-	margin-right:auto;
-}
-.logo{
-	position:absolute;
-	margin-top:18px;
-	margin-left:auto;
-	margin-right:auto;
-}
-
-#main{
-	position:relative;
-	margin-top:200px;
-	margin-right:auto;
-	margin-left:auto;
-	height:auto;
-	width:50%;
-}
-
-.aboutme{
-	text-align: left;
-	font-family: Calibri Light;
-	font-size:300%;
-	color:white;
-}
-.txtaboutme{
-	text-align: left;
-	font-family: Calibri Light;
-	font-size:130%;
-	color:white;
-}
-
-.welcome{
-	text-align: center;
-	font-family: Calibri Light;
-	font-size:500%;
-	color:white;
-
-}
-p{
-	text-align: left;
-	font-family:Calibri Light;
-	font-size:130%;
-	color:white;
-}
-span{
+#navigation li .active{
 	font-family:Calibri Light;
 	font-size:120%;
-	color:white;
+	text-decoration:none;
+	text-align:center;
+	line-height:70px;
+	color: #fff;
+	background-color: #003441;
+	padding: 30px 10px 40px 10px;
+}
+
+.social{
+	margin-left: -10px;
+	position:fixed;
+	margin-top:20%;
+}
+.social .img1{
+	 position: absolute;
+}
+.social .img2{
+	 position: absolute;
+	 margin-top: 50px;
+}
+.social .img3{
+	 position: absolute;
+	 margin-top: 100px;
+}
+.social .img4{
+	 position: absolute;
+	 margin-top: 150px;
+}
+.img1:hover{
+	padding: 0px 10px 0px 10px;
+}
+.img2:hover{
+	padding: 0px 10px 0px 10px;
+}
+.img3:hover{
+	padding: 0px 10px 0px 10px;
+}
+.img4:hover{
+	padding: 0px 10px 0px 10px;
 }
 
 #footer{
 	width:100%;
 	height:30px;
 	position:absolute;
-	bottom:-13px;
+	bottom:0;
 	left:0;
-	vertical-align:middle;
-	line-height:5px;
-	background-image: url("../img/water.jpg");
-	background-repeat: no-repeat;
-    background-position: center; 
-
+	background-color:rgba(0, 0, 0, 0.9);
+	color: #fff;
 }
+
 .rights{
 	text-align:right;
 	font-family:Calibri Light;
@@ -160,14 +93,9 @@ span{
 	color:white;
 }
 
-.robi{
-	text-decoration:none;
-	color:white;
-}
-
-.robi:hover{
-	color:lightblue;
-}
 body{
-	background-color:#9bc7b8;
+
+	background-image: url("../img/ps1.jpg");
+	background-repeat: repeat;
+
 }
