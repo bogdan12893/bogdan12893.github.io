@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'worldofwater';
+  src: url('../fonts/worldofwater.woff') format('woff');
+}
+
 #container{
 	position:absolute;
 	margin-top: -10px;
@@ -12,6 +17,7 @@
 	background-color:rgba(0, 0, 0, 0.9);
 	text-align:center;
 	vertical-align:center;
+    border-radius: 10px;
 }
 #container li{
 	display: inline;
@@ -36,6 +42,7 @@
 	background-color: #003441;
 	padding: 40px 20px 50px 20px;
 }
+
 #container .yellow .active{
 	font-family:Calibri Light;
 	font-size:120%;
@@ -109,30 +116,58 @@ span{
 	width: 50%;
 	height: auto;
 }
-
+.welcome{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	bottom:0;
+    top:82px;
+    left:0;
+    right:0;
+    width:50%;
+	height:300px;
+	background-color:rgba(0, 0, 0, 0.9);
+	color:#fff;
+	border-top: 20px solid #003441;
+	text-align: center;
+}
+.headingtwo{
+	font-family: 'worldofwater';
+	font-weight: bold;
+	font-size: 500%;
+}
+.underline{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	height: 2px;
+	width: 200px;
+	background-color: #0d3f40;
+}
 .middone-green{
 	position: relative;
 	margin-right: auto;
 	margin-left: auto;
 	bottom:0;
-    top:80px;
+    top:82px;
     left:0;
     right:0;
-    width:720px;
+    width:50%;
 	height:auto;
 	background-color:rgba(0, 0, 0, 0.9);
 	color:#fff;
-	border-top: 20px solid #003441;
+	border-top: 10px solid #003441;
+		text-align: justify;
 }
 .middone-yellow{
 	position: relative;
 	margin-right: auto;
 	margin-left: auto;
 	bottom:0;
-    top:80px;
+    top:82px;
     left:0;
     right:0;
-    width:720px;
+    width:50%;
 	height:auto;
 	background-color:rgba(0, 0, 0, 0.9);
 	color:#fff;
@@ -143,10 +178,10 @@ span{
 	margin-right: auto;
 	margin-left: auto;
 	bottom:0;
-    top:80px;
+    top:82px;
     left:0;
     right:0;
-    width:720px;
+    width:50%;
 	height:auto;
 	background-color:rgba(0, 0, 0, 0.9);
 	color:#fff;
@@ -159,7 +194,11 @@ h1{
 .about{
 	font-size: 130%;
 	font-family: Calibri Light;
-	padding: 20px;
+	padding: 0px 20px 20px 20px;
+
+}
+.contact{
+	list-style-type: none;
 }
 
 #footer{
