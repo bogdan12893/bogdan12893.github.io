@@ -15,18 +15,24 @@
 }
 #container li{
 	display: inline;
+	padding: 30px 20px 40px 20px;
+}
+#container li a{
 	font-family:Calibri Light;
 	font-size:120%;
+	text-decoration:none;
 	text-align:center;
 	line-height:70px;
-	padding: 30px 10px 40px 10px;
+	color: #fff;
+	padding: 30px 20px 40px 20px;
 }
+
 
 #container li:hover{
 	background-color: #003441;
-	padding: 30px 10px 40px 10px;
-	color: #fff;
+	padding: 30px 20px 40px 20px;
 }
+
 
 .social{
 	margin-left: -10px;
