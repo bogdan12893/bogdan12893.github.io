@@ -354,7 +354,14 @@ span.text-content {
 	color:#fff;
 }
 
-
+.preview-photo{
+	position: absolute;
+	margin-right: auto;
+	margin-left:auto;
+	height: auto;
+	width: auto;
+	background-color: rgba(0,0,0, 0.9);
+}
 body{
 
 	background-image: url("../img/ps1.jpg");
