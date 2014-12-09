@@ -252,7 +252,7 @@ h1{
     left: 0;
     right:0;
 	width: 50%;
-	height: auto;
+	height: 85%;
 	background-color:rgba(0, 0, 0, 0.9);
 	border-top: 5px solid #f1d38a;
 }
@@ -321,17 +321,34 @@ span.text-content {
 /*FINIGH */
 
 #footer{
-	width:100%;
-	height:20px;
+	width:50%;
+	height:50px;
 	position:absolute;
+	margin-left: auto;
+	margin-right: auto;
+	top:130%;
 	bottom:0;
 	left:0;
 	right: 0;
+	clear: top;
+	background-color: rgba(0,0,0, 0.9);
+	text-align: center;
 	color: #fff;
 }
-
-.rights{
-	text-align:right;
+#footer .row2 .nav2 .link2{
+	display: inline;
+	list-style-type: none;
+	text-decoration: none;
+}
+.link2a{
+	text-decoration: none;
+	color:#fff;
+	font-family: Calibri Light;
+}
+.link2a:hover{
+	text-decoration: underline;
+}
+.link3a{
 	font-family:Calibri Light;
 	font-size:90%;
 	color:#fff;
