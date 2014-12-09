@@ -90,30 +90,54 @@ span{
 }
 .social .img1{
 	 position: absolute;
+	 	width: 50px;
+    height: 50px;
+    background-color: #000;
+	-webkit-transition: width 4s; /* For Safari 3.1 to 6.0 */
+    transition: width 4s;
+
 }
 .social .img2{
 	 position: absolute;
 	 margin-top: 50px;
+	 	width: 50px;
+    height: 50px;
+    background-color: #3B5A9A;
+	-webkit-transition: width 4s; /* For Safari 3.1 to 6.0 */
+    transition: width 4s;
+
 }
 .social .img3{
 	 position: absolute;
 	 margin-top: 100px;
+	 	width: 50px;
+    height: 50px;
+    background-color: #5280A5;
+	-webkit-transition: width 4s; /* For Safari 3.1 to 6.0 */
+    transition: width 4s;
+
 }
 .social .img4{
 	 position: absolute;
 	 margin-top: 150px;
+	 	width: 50px;
+    height: 50px;
+    background-color: #CD2129;
+	-webkit-transition: width 4s; /* For Safari 3.1 to 6.0 */
+    transition: width 4s;
+
 }
 .img1:hover{
-	padding: 0px 10px 0px 10px;
+	padding: 0px 0px 0px 10px;
 }
 .img2:hover{
-	padding: 0px 10px 0px 10px;
+	padding: 0px 0px 0px 10px;
 }
 .img3:hover{
-	padding: 0px 10px 0px 10px;
+	padding: 0px 0px 0px 10px;
 }
 .img4:hover{
-	padding: 0px 10px 0px 10px;
+	padding: 0px 0px 0px 10px;
 }
 
 #middle-page{
