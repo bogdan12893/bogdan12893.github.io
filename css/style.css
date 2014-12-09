@@ -93,8 +93,8 @@ span{
 	 	width: 50px;
     height: 50px;
     background-color: #000;
-	-webkit-transition: width 4s; /* For Safari 3.1 to 6.0 */
-    transition: width 4s;
+	-webkit-transition: padding 0.3s; /* For Safari 3.1 to 6.0 */
+    transition: padding 0.3s;
 
 }
 .social .img2{
@@ -103,9 +103,8 @@ span{
 	 	width: 50px;
     height: 50px;
     background-color: #3B5A9A;
-	-webkit-transition: width 4s; /* For Safari 3.1 to 6.0 */
-    transition: width 4s;
-
+	-webkit-transition: padding 0.3s; /* For Safari 3.1 to 6.0 */
+    transition: padding 0.3s;
 }
 .social .img3{
 	 position: absolute;
@@ -113,9 +112,8 @@ span{
 	 	width: 50px;
     height: 50px;
     background-color: #5280A5;
-	-webkit-transition: width 4s; /* For Safari 3.1 to 6.0 */
-    transition: width 4s;
-
+	-webkit-transition: padding 0.3s; /* For Safari 3.1 to 6.0 */
+    transition: padding 0.3s;
 }
 .social .img4{
 	 position: absolute;
@@ -123,9 +121,8 @@ span{
 	 	width: 50px;
     height: 50px;
     background-color: #CD2129;
-	-webkit-transition: width 4s; /* For Safari 3.1 to 6.0 */
-    transition: width 4s;
-
+	-webkit-transition: padding 0.3s; /* For Safari 3.1 to 6.0 */
+    transition: padding 0.3s;
 }
 .img1:hover{
 	padding: 0px 0px 0px 10px;
