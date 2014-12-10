@@ -375,11 +375,26 @@ span.text-content {
 
 .preview-photo{
 	position: absolute;
+	margin-left: auto;
 	margin-right: auto;
-	margin-left:auto;
+	bottom:0;
+    top:0;
+    left:0;
+    right:0;
 	height: auto;
 	width: auto;
 	background-color: rgba(0,0,0, 0.9);
+}
+.prw{
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	bottom:0;
+    top:0;
+    left:0;
+    right:0;
+	height: auto;
+	width: auto;
 }
 body{
 
