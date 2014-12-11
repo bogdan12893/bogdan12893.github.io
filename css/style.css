@@ -412,13 +412,15 @@ body{
 
 .modalDialog > div {
 	width: 700px;
-	height: 700px;
+	height: 750px;
 	border: 5px solid #111;
 	position: relative;
 	margin: 3% auto;
 	padding: 5px 20px 13px 20px;
 	background: rgba(0,0,0, 0.9);
 }
+
+
 .close {
 	background: #585858;
 	color: #fff;
