@@ -232,7 +232,7 @@ span{
 	position: relative;
 	margin-right: auto;
 	margin-left: auto;
-	top:10px;
+	top:5px;
 	height: 2px;
 	width: 250px;
 	background-color: #a69056;
@@ -241,8 +241,53 @@ span{
 .about1{
 	font-size: 160%;
 	font-family: Calibri Light;
-	padding: 0px 30px 30px 30px;
+	padding: 20px 30px 30px 30px;
 	color:#000;
+			  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+
+            -webkit-animation-name: bounceInUp;
+          animation-name: bounceInUp;
+}
+
+@-webkit-keyframes bounceOut {
+  20% {
+    -webkit-transform: scale3d(.9, .9, .9);
+            transform: scale3d(.9, .9, .9);
+  }
+
+  50%, 55% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+            transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+            transform: scale3d(.3, .3, .3);
+  }
+}
+
+@keyframes bounceOut {
+  20% {
+    -webkit-transform: scale3d(.9, .9, .9);
+            transform: scale3d(.9, .9, .9);
+  }
+
+  50%, 55% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+            transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+            transform: scale3d(.3, .3, .3);
+  }
 }
 .middone-green{
 	position: absolute;
