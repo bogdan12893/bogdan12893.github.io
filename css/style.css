@@ -16,9 +16,6 @@
 	background-color: #003c30;
 	clear:both;
 	z-index: 9999;
--webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.37);
--moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.37);
-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.37);
 }
 
 #container li{
@@ -166,7 +163,8 @@ span{
 	height:50%;
 	position:;
 	color:#003441;
-	background-image: url("../img/dark1.png");
+	background-image: url("../img/minimal.gif");
+	background-repeat: no-repeat;
 	text-align: center;
 	clear: left;
 }
@@ -218,9 +216,6 @@ span{
 	color:#fff;
 	text-align: justify;
 	z-index: 999;
--webkit-box-shadow: 0px -5px 10px 0px rgba(0,0,0,0.3);
--moz-box-shadow: 0px -5px 10px 0px rgba(0,0,0,0.3);
-box-shadow: 0px -5px 10px 0px rgba(0,0,0,0.3);
 }
 .middone-yellow{
 	position: absolute;
