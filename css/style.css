@@ -328,7 +328,7 @@ span.text-content {
   top: 0;
   width: 300px;
 }
- 
+
 span.text-content span {
   display: table-cell;
   text-align: center;
@@ -401,8 +401,7 @@ span.text-content {
 }
 
 body{
-
-
+  overflow-x: hidden;
 }
 
 /*MODAL DIALBOX*/
