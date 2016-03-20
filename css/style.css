@@ -162,15 +162,16 @@ span{
 	height:50%;
 	position:;
 	color:#003441;
-	background-image: url("../img/minimal.gif");
-	background-repeat: no-repeat;
+ 	 filter: blur(5px);
+	background-image: url("../img/blue22.png");
+	background-repeat: repeat;
 	text-align: center;
 	clear: left;
 }
 .headingtwo{
 	font-family: 'worldofwater';
 	font-weight: bold;
-	font-size: 500%;
+	font-size: 7em;
 	vertical-align: middle;
 	color:#fff;
   -webkit-animation-duration: 1s;
@@ -183,9 +184,9 @@ span{
 	position: relative;
 	margin-right: auto;
 	margin-left: auto;
-	top:5px;
+	top:2px;
 	height: 2px;
-	width: 250px;
+	width: 15em;
 	background-color: #fff;
 	  -webkit-animation-duration: 1s;
           animation-duration: 1s;
@@ -194,7 +195,7 @@ span{
 }
 
 .about1{
-	font-size: 160%;
+	font-size: 1.5em;
 	font-family: Calibri Light;
 	padding: 20px 30px 30px 30px;
 	color:#fff;
@@ -211,7 +212,7 @@ span{
     right:0;
     width:100%;
 	height:auto;
-	background-color:#35978f;
+	background-color:rgb(53, 151, 143);
 	color:#fff;
 	text-align: justify;
 	z-index: 999;
@@ -369,7 +370,7 @@ span.text-content {
 
 #footer{
 	width:100%;
-	height:50px;
+	height:3em;
 	position:absolute;
 	margin-left: auto;
 	margin-right: auto;
