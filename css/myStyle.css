@@ -14,8 +14,8 @@ body, html {
 /* portrait image */
 .portrait {
     background-image: url('../images/portrait.jpg');
-    width: 150px;
-    height: 150px;
+    width: 10em;
+    height: 10em;
     background-position: center;
     background-size: cover;
     border-radius: 100%;
@@ -37,3 +37,25 @@ body, html {
     font-family: 'Rammetto One', cursive;
 }
 
+/* mobile view */
+@media only screen and (max-width: 500px) {
+
+    .portrait {
+        background-image: url('../images/portrait.jpg');
+        width: 5em;
+        height: 5em;
+        margin-left: 8em;
+        border-width: 2px;
+        cursor: pointer;
+    }
+    
+    .infos {
+        margin-left: 10em;
+        cursor: pointer;
+        font-size: 12px;
+    }
+    
+    .ouch {
+        font-size: 13px;
+    }
+}
