@@ -1,8 +1,11 @@
 const portrait = document.getElementById('profilePic');
 const info = document.getElementById('info');
+portrait.addEventListener('click', shakeShake, false);
+portrait.classList.add('animated', 'infinite', 'pulse');
 
 function shakePic(){
-    portrait.classList.add('portrait','animated', 'shake');
+    portrait.classList.remove('infinite');
+    portrait.classList.add('animated', 'shake');
     setTimeout(() => {
         info.classList.add('animated', 'fadeInUp');
         info.innerHTML = `<p class='ouch'>Ouch, my head! </p></br>
@@ -18,5 +21,11 @@ function shakePic(){
                             <li>Snowboarder,</li>
                             <li>Hiker</li>
                         </ul>`;
-    },1000);
+    },1000);    
+}
+function shakeShake(e){
+    e.preventDefault;
+    portrait.classList.remove('animated', 'shake');
+    void portrait.offsetWidth;
+    portrait.classList.add('animated', 'shake');
 }

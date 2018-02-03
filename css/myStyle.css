@@ -1,6 +1,7 @@
-
 /* 100% size background */
-body, html {
+
+body,
+html {
     height: 100%;
 }
 
@@ -11,7 +12,9 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 /* portrait image */
+
 .portrait {
     background-image: url('../images/portrait.jpg');
     width: 10em;
@@ -19,11 +22,33 @@ body, html {
     background-position: center;
     background-size: cover;
     border-radius: 100%;
-    margin-top: 1em;
+    margin-top: 3em;
     border-width: 3px;
     border-color: rgb(28, 28, 29);
     border-style: solid;
     cursor: pointer;
+}
+
+.portraitText {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 100%;
+    background: rgba(24, 24, 24, 0.72);
+    color: #fff;
+    text-align: center;
+    line-height: 9em;
+    font-family: 'Montserrat', sans-serif;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s, visibility .5s;
+}
+
+.portrait:hover .portraitText {
+    visibility: visible;
+    opacity: 1;
 }
 
 .infos {
@@ -37,25 +62,53 @@ body, html {
     font-family: 'Rammetto One', cursive;
 }
 
-/* mobile view */
-@media only screen and (max-width: 500px) {
+.social{
+    font-size: 3em;
+    padding: 5px;
+    color: rgb(29, 29, 29);
+}
+.social:hover{
+    transition: color .3s ease;
+    color: rgb(143, 145, 32);
+}
+.socialSpace {
+    margin-top: 5em;
+}
 
+/* mobile view */
+
+@media only screen and (max-width: 500px) {
     .portrait {
         background-image: url('../images/portrait.jpg');
         width: 5em;
         height: 5em;
-        margin-left: 8em;
+        margin-left: 7em;
         border-width: 2px;
         cursor: pointer;
     }
-    
+    .portraitText {
+        line-height: 7em;
+        font-size: 10px;
+    }
     .infos {
         margin-left: 10em;
         cursor: pointer;
         font-size: 12px;
     }
-    
     .ouch {
         font-size: 13px;
+    }
+
+    .social{
+        font-size: 2em;
+        padding: 3px;
+    }
+
+    .socialSpace {
+        margin-top: 0em;
+    }
+
+    .socialList {
+        display: inline;
     }
 }
