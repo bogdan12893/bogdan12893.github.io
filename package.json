@@ -1,0 +1,22 @@
+{
+  "name": "bogdan12893.github.io",
+  "version": "1.0.0",
+  "description": "Portofolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bogdan12893/bogdan12893.github.io.git"
+  },
+  "author": "Bogdan Cadar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bogdan12893/bogdan12893.github.io/issues"
+  },
+  "homepage": "https://github.com/bogdan12893/bogdan12893.github.io#readme",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  }
+}
