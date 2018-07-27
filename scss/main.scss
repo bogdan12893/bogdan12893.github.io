@@ -111,4 +111,91 @@ main {
     }
   }
 
+  //work/projects
+
+  .projects {
+      display: grid;
+      grid-gap: 0.7rem;
+      grid-template-columns: repeat(3, 1fr);
+
+      img {
+          width: 100%;
+          border: 3px #fff solid;
+
+          &:hover {
+              opacity: 0.5;
+              border-color: $secondary-color;
+              @include easeOut;
+          }
+      }
+  }
+
+  //button styles
+  .btn {
+      display: block;
+      padding: 0.5rem 1rem;
+      border: 0;
+      margin-bottom: 0.3rem;
+      &:hover {
+          background: $secondary-color;
+          color: set-text-color($secondary-color);
+      }
+  }
+
+  .btn-dark {
+    @extend .btn;
+    background: darken($primary-color, 50);
+    color: #fff;
+  }
+
+  .btn-light {
+    @extend .btn;
+    background: lighten($primary-color, 50);
+    color: #333;
+  }
+
+
+  //dots loading
+  .spinner {
+    margin: 100px auto 0;
+    height: 150px;
+    text-align: center;
+  }
+  
+  .spinner > div {
+    width: 18px;
+    height: 18px;
+    background-color: $secondary-color;
+  
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+    animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  }
+  
+  .spinner .bounce1 {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+  }
+  
+  .spinner .bounce2 {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+  }
+  
+  @-webkit-keyframes sk-bouncedelay {
+    0%, 80%, 100% { -webkit-transform: scale(0) }
+    40% { -webkit-transform: scale(1.0) }
+  }
+  
+  @keyframes sk-bouncedelay {
+    0%, 80%, 100% { 
+      -webkit-transform: scale(0);
+      transform: scale(0);
+    } 40% { 
+      -webkit-transform: scale(1.0);
+      transform: scale(1.0);
+    }
+  }
+
   @import 'mobile';
